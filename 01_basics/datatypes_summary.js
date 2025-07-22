@@ -29,4 +29,24 @@ const myFunction = function(){
 
 
  //+++++++++++++++++++++++++++++++++++++++++
- //
+ // primtive (stack): which is make copy of variable of same type.
+ //non primtive(heap):which is mainly reference the value directly.
+
+ // 1 stack
+ let myname="vishwa"
+
+ let anotherName = myname
+ anotherName = "manu"
+
+ console.log(myname);
+ console.log(anotherName);
+
+ let userOne={// objects is key and value pair
+    email:"user@google.com",
+    upi:"usr@ybl"
+ }
+ let userTwo =userOne
+userTwo.email ="vish@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+ 
