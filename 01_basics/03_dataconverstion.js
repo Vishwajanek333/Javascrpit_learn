@@ -3,7 +3,7 @@ let score="33"
 //"33abc"=>nan
 // true =>1;false =>0
 //console.log(typeof score);
-console.log(typeof (score));// it  will either  number without double codes, if double its string
+console.log(typeof (score));// it  will either  number without double codes, if have double  its string
 
 let valueInNumber = Number(score)// its typecasting
 // console.log(typeof valueInNumber);// string to int or number
