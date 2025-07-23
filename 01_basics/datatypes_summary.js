@@ -1,4 +1,4 @@
-/// primtive
+ // primtive
 // 7types :String,Number,Boolean,null,undefined,Symbol,BigInt
 
 const score=100 // js is scrpited, dynamic type of language and it run client side +server side.
@@ -28,7 +28,7 @@ const myFunction = function(){
  console.log(typeof variables_name) // it  tells about the type of variable
 
 
- //+++++++++++++++++++++++++++++++++++++++++
+ //  +++++++++++++++++++++++++++++++++++++++
  // primtive (stack): which is make copy of variable of same type.
  //non primtive(heap):which is mainly reference the value directly.
 
