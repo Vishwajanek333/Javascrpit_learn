@@ -1,4 +1,4 @@
-const score=400
+const score=400// math is bulit in object
 
 const balance = new Number(100)
 console.log(balance)
