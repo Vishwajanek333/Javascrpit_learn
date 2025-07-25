@@ -55,3 +55,7 @@ console.log(snapUser.hasOwnProperty('isLoggedIn'));
 
 
 
+// destructuing of arrays
+
+
+
