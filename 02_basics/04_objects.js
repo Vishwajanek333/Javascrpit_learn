@@ -55,7 +55,30 @@ console.log(snapUser.hasOwnProperty('isLoggedIn'));
 
 
 
-// destructuing of arrays
+// destructureing of objects
 
+const course={
+    coursename:"js with vish",
+    price:"666",
+    courseInstructor:"hitesh"
 
+}
+// when we want to access or use 
+//course.courseInstructor // it not good pratice
+const{courseInstructor:instructor}=course
+//console.log(courseInstructor);
+console.log(instructor);
+
+//  api and json basics
+// json
+        // { "name":"vish",
+        //     "coursename":"js",
+        //     "instructor:"hitesh"
+        // }
+// api not object types but also in arrays format 
+[
+    {},
+    {},
+]
+// lets check the  random api how it looks  we can also extract the values  json we  see in future 
 
