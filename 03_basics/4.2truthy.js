@@ -30,3 +30,19 @@ if(Object.keys(emptyObj).length === 0){
 // true
 // 0=='
 // true'
+
+//nullish coalescing operator(??):null undefined
+ // call back and handels the error 
+let val1
+// val1=5??10
+val2 =null??10// it handle complex values to handles
+// val1 =undefined ?? 10
+val1 =null?? 10?? 20 
+console.log(val1);
+console.log(val2);
+
+// terinary operator
+ // condition  ?true :false
+
+ const icePrice =100
+ icePrice<=80?console.log("less than 80"):console.log("more than 80")
