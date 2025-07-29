@@ -11,3 +11,4 @@
 ( ()=> {
     console.log(`DB connected two ` );
 })()
+// note call stack in browser.
