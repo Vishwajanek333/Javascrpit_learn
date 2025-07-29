@@ -1,4 +1,4 @@
-// for of
+// for of mostly for array
 
 // ["","",""]
 //[{},{},{}]
@@ -24,7 +24,7 @@ map.set('IN',"INDIA")
 
 console.log(map);
 
-for(const key of map){
+for(const key of map){// for of loop the print  we get the values of of the array
     console.log(key,':-',value);
 }
 // objects  general not iterate
