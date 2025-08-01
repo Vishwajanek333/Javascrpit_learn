@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chai aur code</title>
+</head>
+<body style ="background-color:#212121;color:#fff">
+    <ul  class ="language">
+        <li> javascript</li>
+    </ul>
+</body>
+<script>
+    function addlanguage(langName) {
+        const li =document.createElement('li');
+        li.innerHTML=`${langName}`// basic  traveseing 
+        document.querySelector('.language').appendChild(li) // add the  external list from  script file to html
+         
+    }
+    addlanguage("python")
+    addlanguage("typeScript")//  here it  created element but it most travel tree of each  node next one most optimzaed method
+
+    function addOptiLanguage(langName){
+        const li =document.createElement('li');
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(li)
+    }
+    addOptiLanguage('golang')
+
+    //edit
+    const secondLang=document.querySelector("li:nth-child(2)")
+    const newli =document.createElement('li')
+    newli.textContent="mojo"
+    secondLang.replaceWith(newli)
+
+    // edit
+    const firstLang =document.querySelector("li:first-child")
+    firstLang.outerHTML='<li>typeScript</li>'
+
+
+// remove
+ const lastLang =document.querySelector('li:last-child')
+ lastLang.remove()
+   
+
+</script>
+</html>
+    
+
