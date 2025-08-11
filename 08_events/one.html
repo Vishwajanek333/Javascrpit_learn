@@ -24,9 +24,27 @@
 
         // attachEvent()
     // jquery :
-    document.getElementById('owl').addEventListener('click',function (){
-        alert("owl clicked  again")
+     // type, timestamp,defaultPrevented
+    // target , toElement,srcElement,currentTarget,
+    // clientx, clientY, screenx,screenY
+    // altkey,ctrKey,shiftkey,keyCode
+
+    // document.getElementById('owl').addEventListener('click',function (e){
+    //     console.log(e)
+    // })
+
+    
+    document.getElementById('images').addEventListener('click',function (e){
+        console.log("clicked  inside the ul");
     })
+    document.getElementById('owl').addEventListener('click',function (e){
+        console.log("owl clicked");
+    })
+
+     
+
+     
+   
 
     
 </script>
